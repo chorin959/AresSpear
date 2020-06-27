@@ -1,0 +1,38 @@
+{
+  "name": "ares-spear",
+  "version": "1.0.0",
+  "description": "ares spear",
+  "homepage": "https://gitee.com/chorin959/AresSpear",
+  "main": "dist/lib/AresSpear.js",
+  "scripts": {
+    "build": "node script/build.js",
+    "test": "jest --config test/jest.config.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/chorin959/AresSpear.git"
+  },
+  "keywords": [
+    "js",
+    "struct",
+    "class"
+  ],
+  "author": "Chorin",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-replace": "^2.2.1",
+    "@types/jest": "^25.2.2",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.0.0",
+    "execa": "^2.0.4",
+    "rollup": "^2.2.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.27.0"
+  }
+}
