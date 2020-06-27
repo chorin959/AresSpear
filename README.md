@@ -12,7 +12,7 @@
 
 全部导入
 ```javascript
-  import AresSpear from "ares-spear";
+  import * as AresSpear from "ares-spear";
 ```
 按需导入
 ```javascript
@@ -20,7 +20,6 @@
 ```
 
 ## 功能介绍
----
 ### WaitChain
 
 ***功能***
