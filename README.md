@@ -50,3 +50,16 @@
 
 * timeout - 通过Promise方式实现延时
 * getTimeDistance - 获取两个时间戳之间的距离，可控制精度
+
+
+---
+### DynamicLock  
+***功能***
+
+动态锁
+
+***方法***
+
+* tryLock - 获取锁
+* unlock - 开锁
+* destroyLock - 销毁锁

@@ -1,6 +1,6 @@
 {
   "name": "ares-spear",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ares spear",
   "homepage": "https://gitee.com/chorin959/AresSpear",
   "main": "dist/lib/AresSpear.js",
